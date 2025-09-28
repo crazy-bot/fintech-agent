@@ -1,0 +1,230 @@
+{
+  "documents": [
+    {
+      "doc_id": 0,
+      "content": "## {'title': 'Key Financials'} for Tronox (Currency: USD millions)\nThis document contains data on: Sales, Gross profit, Gross profit margin, Operating profit, Operating profit margin, Adjusted EBITDA, Adjusted EBITDA margin.\n\n### Data\n- **Sales**:\n  - Annual (2023-12-31): 2850.0 USDm\n  - Annual (2024-12-31): 3074.0 USDm\n  - LTM (2025-06-30): 2949.0 USDm\n- **Gross profit**:\n  - Annual (2023-12-31): 462.0 USDm\n  - Annual (2024-12-31): 515.0 USDm\n  - LTM (2025-06-30): 423.0 USDm\n- **Gross profit margin**:\n  - Annual (2023-12-31): 16.2 %\n  - Annual (2024-12-31): 16.8 %\n  - LTM (2025-06-30): 14.3 %\n- **Operating profit**:\n  - Annual (2023-12-31): 186.0 USDm\n  - Annual (2024-12-31): 219.0 USDm\n  - LTM (2025-06-30): 6.0 USDm\n- **Operating profit margin**:\n  - Annual (2023-12-31): 6.5 %\n  - Annual (2024-12-31): 7.1 %\n  - LTM (2025-06-30): 0.2 %\n- **Adjusted EBITDA**:\n  - Annual (2023-12-31): 524.0 USDm\n  - Annual (2024-12-31): 564.0 USDm\n  - LTM (2025-06-30): 477.0 USDm\n- **Adjusted EBITDA margin**:\n  - Annual (2023-12-31): 18.4 %\n  - Annual (2024-12-31): 18.3 %\n  - LTM (2025-06-30): 16.2 %",
+      "metadata": {
+        "company_name": "Tronox",
+        "company_id": 1,
+        "table_name": "key_financials",
+        "keywords": [
+          "Sales",
+          "Gross profit",
+          "Gross profit margin",
+          "Operating profit",
+          "Operating profit margin",
+          "Adjusted EBITDA",
+          "Adjusted EBITDA margin"
+        ],
+        "source_url": "www.9fin.com/company_id/1/key_financials",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 1,
+      "content": "## {'title': 'Cash Flow and Leverage'} for Tronox (Currency: USD millions)\nThis document contains data on: Capex, Capex margin, Change in working capital, Cash from operating activities, Cash from investing activities, Cash from financing activities, Net change in cash, Total debt, Total cash, Net debt, Net leverage, Gross leverage, Interest coverage.\n\n### Data\n- **Capex**:\n  - Annual (2023-12-31): -261.0 USDm\n  - Annual (2024-12-31): -370.0 USDm\n  - LTM (2025-06-30): -411.0 USDm\n- **Capex margin**:\n  - Annual (2023-12-31): -9.2 %\n  - Annual (2024-12-31): -12.0 %\n  - LTM (2025-06-30): -13.9 %\n- **Change in working capital**:\n  - Annual (2023-12-31): -138.0 USDm\n  - Annual (2024-12-31): -65.0 USDm\n  - LTM (2025-06-30): -91.0 USDm\n- **Cash from operating activities**:\n  - Annual (2023-12-31): 184.0 USDm\n  - Annual (2024-12-31): 300.0 USDm\n  - LTM (2025-06-30): 165.0 USDm\n- **Cash from investing activities**:\n  - Annual (2023-12-31): -255.0 USDm\n  - Annual (2024-12-31): -343.0 USDm\n  - LTM (2025-06-30): -383.0 USDm\n- **Cash from financing activities**:\n  - Annual (2023-12-31): 176.0 USDm\n  - Annual (2024-12-31): -71.0 USDm\n  - LTM (2025-06-30): 148.0 USDm\n- **Net change in cash**:\n  - Annual (2023-12-31): 109.0 USDm\n  - Annual (2024-12-31): -121.0 USDm\n  - LTM (2025-06-30): -68.0 USDm\n- **Total debt**:\n  - Annual (2023-12-31): 2843.0 USDm\n  - Annual (2024-12-31): 2892.0 USDm\n  - LTM (2025-06-30): 3082.0 USDm\n- **Total cash**:\n  - Annual (2023-12-31): 273.0 USDm\n  - Annual (2024-12-31): 151.0 USDm\n  - LTM (2025-06-30): 132.0 USDm\n- **Net debt**:\n  - Annual (2023-12-31): 2570.0 USDm\n  - Annual (2024-12-31): 2741.0 USDm\n  - LTM (2025-06-30): 2950.0 USDm\n- **Net leverage**:\n  - Annual (2023-12-31): 4.9 x\n  - Annual (2024-12-31): 4.9 x\n  - LTM (2025-06-30): 6.2 x\n- **Gross leverage**:\n  - Annual (2023-12-31): 5.4 x\n  - Annual (2024-12-31): 5.1 x\n  - LTM (2025-06-30): 6.5 x\n- **Interest coverage**:\n  - Annual (2023-12-31): 3.7 x\n  - Annual (2024-12-31): 3.6 x\n  - LTM (2025-06-30): 2.9 x",
+      "metadata": {
+        "company_name": "Tronox",
+        "company_id": 1,
+        "table_name": "cash_flow_and_leverage",
+        "keywords": [
+          "Capex",
+          "Capex margin",
+          "Change in working capital",
+          "Cash from operating activities",
+          "Cash from investing activities",
+          "Cash from financing activities",
+          "Net change in cash",
+          "Total debt",
+          "Total cash",
+          "Net debt",
+          "Net leverage",
+          "Gross leverage",
+          "Interest coverage"
+        ],
+        "source_url": "www.9fin.com/company_id/1/cash_flow_and_leverage",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 2,
+      "content": "## {'title': 'Capitalization Table'} for Tronox (as of 2025-06-30)\n\nThis document contains the capitalization table for Tronox, detailing its debt structure.\n\n| Instrument Name | Security | Maturity | Rate | Amount (USDm) |\n|---|---|---|---|---|\n| $350m Revolving Credit Facility due 2029 | Secured | Aug-2029 | S+175-225 | 100.0 |\n| Revolving credit facilities short term debt | Secured | Various | Variable | 166.0 |\n| $741m Term Loan B due 2029 | Secured | Apr-2029 | S+225 | 734.0 |\n| $902m Term Loan B due 2031 | Secured | Sep-2031 | S+250 | 891.0 |\n| **Gross Secured Debt** | None | None | None | **1891.0** |\n| **Net Secured Debt** | None | None | None | **1759.0** |\n| $1.075bn Senior Notes due 2029 | Unsecured | Mar-2029 | 4.625% | 1075.0 |\n| \u00a51.1bn Term Loan Facility due 2029 | Unsecured | Aug-2029 | JIBAR+235 | 57.0 |\n| Australian Government Loan due 2036 | Unsecured | Dec-2036 | N/A | 2.0 |\n| MGT Loan | Unsecured | Various | Variable | 16.0 |\n| Finance Leases | None | None | None | 41.0 |\n| **Gross Debt** | None | None | None | **3082.0** |\n| Cash and Cash Equivalents | None | None | None | -132.0 |\n| **Net Debt** | None | None | None | **2950.0** |\n| Market Capitalization | None | None | None | 529.5 |\n| **Net Capitalization** | None | None | None | **3479.5** |",
+      "metadata": {
+        "company_name": "Tronox",
+        "company_id": 1,
+        "table_name": "cap_table",
+        "keywords": [],
+        "source_url": "www.9fin.com/company_id/1/cap_table",
+        "currency": null
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 3,
+      "content": "## {'title': 'Key Financials'} for Chemco Holdings (Currency: USD millions)\nThis document contains data on: Sales, Gross profit, Gross profit margin, Operating profit, Operating profit margin, Adjusted EBITDA, Adjusted EBITDA margin.\n\n### Data\n- **Sales**:\n  - Annual (2023-12-31): 5200.0 USDm\n  - Annual (2024-12-31): 5480.0 USDm\n  - LTM (2025-06-30): 5310.0 USDm\n- **Gross profit**:\n  - Annual (2023-12-31): 1040.0 USDm\n  - Annual (2024-12-31): 1096.0 USDm\n  - LTM (2025-06-30): 1008.0 USDm\n- **Gross profit margin**:\n  - Annual (2023-12-31): 20.0 %\n  - Annual (2024-12-31): 20.0 %\n  - LTM (2025-06-30): 19.0 %\n- **Operating profit**:\n  - Annual (2023-12-31): 520.0 USDm\n  - Annual (2024-12-31): 548.0 USDm\n  - LTM (2025-06-30): 477.0 USDm\n- **Operating profit margin**:\n  - Annual (2023-12-31): 10.0 %\n  - Annual (2024-12-31): 10.0 %\n  - LTM (2025-06-30): 9.0 %\n- **Adjusted EBITDA**:\n  - Annual (2023-12-31): 780.0 USDm\n  - Annual (2024-12-31): 803.0 USDm\n  - LTM (2025-06-30): 742.0 USDm\n- **Adjusted EBITDA margin**:\n  - Annual (2023-12-31): 15.0 %\n  - Annual (2024-12-31): 14.7 %\n  - LTM (2025-06-30): 14.0 %",
+      "metadata": {
+        "company_name": "Chemco Holdings",
+        "company_id": 2,
+        "table_name": "key_financials",
+        "keywords": [
+          "Sales",
+          "Gross profit",
+          "Gross profit margin",
+          "Operating profit",
+          "Operating profit margin",
+          "Adjusted EBITDA",
+          "Adjusted EBITDA margin"
+        ],
+        "source_url": "www.9fin.com/company_id/2/key_financials",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 4,
+      "content": "## {'title': 'Cash Flow and Leverage'} for Chemco Holdings (Currency: USD millions)\nThis document contains data on: Capex, Capex margin, Change in working capital, Cash from operating activities, Cash from investing activities, Cash from financing activities, Net change in cash, Total debt, Total cash, Net debt, Net leverage, Gross leverage, Interest coverage.\n\n### Data\n- **Capex**:\n  - Annual (2023-12-31): -420.0 USDm\n  - Annual (2024-12-31): -450.0 USDm\n  - LTM (2025-06-30): -478.0 USDm\n- **Capex margin**:\n  - Annual (2023-12-31): -8.1 %\n  - Annual (2024-12-31): -8.2 %\n  - LTM (2025-06-30): -9.0 %\n- **Change in working capital**:\n  - Annual (2023-12-31): -80.0 USDm\n  - Annual (2024-12-31): -40.0 USDm\n  - LTM (2025-06-30): -65.0 USDm\n- **Cash from operating activities**:\n  - Annual (2023-12-31): 700.0 USDm\n  - Annual (2024-12-31): 730.0 USDm\n  - LTM (2025-06-30): 665.0 USDm\n- **Cash from investing activities**:\n  - Annual (2023-12-31): -390.0 USDm\n  - Annual (2024-12-31): -420.0 USDm\n  - LTM (2025-06-30): -450.0 USDm\n- **Cash from financing activities**:\n  - Annual (2023-12-31): -150.0 USDm\n  - Annual (2024-12-31): -200.0 USDm\n  - LTM (2025-06-30): -120.0 USDm\n- **Net change in cash**:\n  - Annual (2023-12-31): 160.0 USDm\n  - Annual (2024-12-31): 110.0 USDm\n  - LTM (2025-06-30): 95.0 USDm\n- **Total debt**:\n  - Annual (2023-12-31): 4100.0 USDm\n  - Annual (2024-12-31): 3950.0 USDm\n  - LTM (2025-06-30): 3980.0 USDm\n- **Total cash**:\n  - Annual (2023-12-31): 500.0 USDm\n  - Annual (2024-12-31): 610.0 USDm\n  - LTM (2025-06-30): 705.0 USDm\n- **Net debt**:\n  - Annual (2023-12-31): 3600.0 USDm\n  - Annual (2024-12-31): 3340.0 USDm\n  - LTM (2025-06-30): 3275.0 USDm\n- **Net leverage**:\n  - Annual (2023-12-31): 4.6 x\n  - Annual (2024-12-31): 4.2 x\n  - LTM (2025-06-30): 4.4 x\n- **Gross leverage**:\n  - Annual (2023-12-31): 5.3 x\n  - Annual (2024-12-31): 4.9 x\n  - LTM (2025-06-30): 5.4 x\n- **Interest coverage**:\n  - Annual (2023-12-31): 5.0 x\n  - Annual (2024-12-31): 5.1 x\n  - LTM (2025-06-30): 4.8 x",
+      "metadata": {
+        "company_name": "Chemco Holdings",
+        "company_id": 2,
+        "table_name": "cash_flow_and_leverage",
+        "keywords": [
+          "Capex",
+          "Capex margin",
+          "Change in working capital",
+          "Cash from operating activities",
+          "Cash from investing activities",
+          "Cash from financing activities",
+          "Net change in cash",
+          "Total debt",
+          "Total cash",
+          "Net debt",
+          "Net leverage",
+          "Gross leverage",
+          "Interest coverage"
+        ],
+        "source_url": "www.9fin.com/company_id/2/cash_flow_and_leverage",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 5,
+      "content": "## {'title': 'Capitalization Table'} for Chemco Holdings (as of 2025-06-30)\n\nThis document contains the capitalization table for Chemco Holdings, detailing its debt structure.\n\n| Instrument Name | Security | Maturity | Rate | Amount (USDm) |\n|---|---|---|---|---|\n| $500m Revolving Credit Facility due 2028 | Secured | Nov-2028 | S+175-225 | 50.0 |\n| Short term debt | Secured | Various | Variable | 120.0 |\n| $2.2bn Term Loan B due 2030 | Secured | Apr-2030 | S+225 | 2200.0 |\n| $1.3bn Term Loan B due 2032 | Secured | Sep-2032 | S+250 | 1300.0 |\n| **Gross Secured Debt** | None | None | None | **3670.0** |\n| **Net Secured Debt** | None | None | None | **2965.0** |\n| $300m Senior Notes due 2030 | Unsecured | Mar-2030 | 4.875% | 300.0 |\n| Finance Leases | None | None | None | 10.0 |\n| **Gross Debt** | None | None | None | **3980.0** |\n| Cash and Cash Equivalents | None | None | None | -705.0 |\n| **Net Debt** | None | None | None | **3275.0** |\n| Market Capitalization | None | None | None | 2400.0 |\n| **Net Capitalization** | None | None | None | **5675.0** |",
+      "metadata": {
+        "company_name": "Chemco Holdings",
+        "company_id": 2,
+        "table_name": "cap_table",
+        "keywords": [],
+        "source_url": "www.9fin.com/company_id/2/cap_table",
+        "currency": null
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 6,
+      "content": "## {'title': 'Key Financials'} for MineralsCo International (Currency: USD millions)\nThis document contains data on: Sales, Gross profit, Gross profit margin, Operating profit, Operating profit margin, Adjusted EBITDA, Adjusted EBITDA margin.\n\n### Data\n- **Sales**:\n  - Annual (2023-12-31): 1700.0 USDm\n  - Annual (2024-12-31): 1850.0 USDm\n  - LTM (2025-06-30): 1920.0 USDm\n- **Gross profit**:\n  - Annual (2023-12-31): 510.0 USDm\n  - Annual (2024-12-31): 555.0 USDm\n  - LTM (2025-06-30): 576.0 USDm\n- **Gross profit margin**:\n  - Annual (2023-12-31): 30.0 %\n  - Annual (2024-12-31): 30.0 %\n  - LTM (2025-06-30): 30.0 %\n- **Operating profit**:\n  - Annual (2023-12-31): 221.0 USDm\n  - Annual (2024-12-31): 241.0 USDm\n  - LTM (2025-06-30): 230.0 USDm\n- **Operating profit margin**:\n  - Annual (2023-12-31): 13.0 %\n  - Annual (2024-12-31): 13.0 %\n  - LTM (2025-06-30): 12.0 %\n- **Adjusted EBITDA**:\n  - Annual (2023-12-31): 350.0 USDm\n  - Annual (2024-12-31): 375.0 USDm\n  - LTM (2025-06-30): 368.0 USDm\n- **Adjusted EBITDA margin**:\n  - Annual (2023-12-31): 20.6 %\n  - Annual (2024-12-31): 20.3 %\n  - LTM (2025-06-30): 19.2 %",
+      "metadata": {
+        "company_name": "MineralsCo International",
+        "company_id": 3,
+        "table_name": "key_financials",
+        "keywords": [
+          "Sales",
+          "Gross profit",
+          "Gross profit margin",
+          "Operating profit",
+          "Operating profit margin",
+          "Adjusted EBITDA",
+          "Adjusted EBITDA margin"
+        ],
+        "source_url": "www.9fin.com/company_id/3/key_financials",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 7,
+      "content": "## {'title': 'Cash Flow and Leverage'} for MineralsCo International (Currency: USD millions)\nThis document contains data on: Capex, Capex margin, Change in working capital, Cash from operating activities, Cash from investing activities, Cash from financing activities, Net change in cash, Total debt, Total cash, Net debt, Net leverage, Gross leverage, Interest coverage.\n\n### Data\n- **Capex**:\n  - Annual (2023-12-31): -120.0 USDm\n  - Annual (2024-12-31): -150.0 USDm\n  - LTM (2025-06-30): -180.0 USDm\n- **Capex margin**:\n  - Annual (2023-12-31): -7.1 %\n  - Annual (2024-12-31): -8.1 %\n  - LTM (2025-06-30): -9.4 %\n- **Change in working capital**:\n  - Annual (2023-12-31): -10.0 USDm\n  - Annual (2024-12-31): -20.0 USDm\n  - LTM (2025-06-30): 5.0 USDm\n- **Cash from operating activities**:\n  - Annual (2023-12-31): 300.0 USDm\n  - Annual (2024-12-31): 315.0 USDm\n  - LTM (2025-06-30): 310.0 USDm\n- **Cash from investing activities**:\n  - Annual (2023-12-31): -130.0 USDm\n  - Annual (2024-12-31): -160.0 USDm\n  - LTM (2025-06-30): -190.0 USDm\n- **Cash from financing activities**:\n  - Annual (2023-12-31): -50.0 USDm\n  - Annual (2024-12-31): -30.0 USDm\n  - LTM (2025-06-30): -20.0 USDm\n- **Net change in cash**:\n  - Annual (2023-12-31): 120.0 USDm\n  - Annual (2024-12-31): 125.0 USDm\n  - LTM (2025-06-30): 100.0 USDm\n- **Total debt**:\n  - Annual (2023-12-31): 1200.0 USDm\n  - Annual (2024-12-31): 1250.0 USDm\n  - LTM (2025-06-30): 1180.0 USDm\n- **Total cash**:\n  - Annual (2023-12-31): 200.0 USDm\n  - Annual (2024-12-31): 325.0 USDm\n  - LTM (2025-06-30): 420.0 USDm\n- **Net debt**:\n  - Annual (2023-12-31): 1000.0 USDm\n  - Annual (2024-12-31): 925.0 USDm\n  - LTM (2025-06-30): 760.0 USDm\n- **Net leverage**:\n  - Annual (2023-12-31): 2.9 x\n  - Annual (2024-12-31): 2.5 x\n  - LTM (2025-06-30): 2.1 x\n- **Gross leverage**:\n  - Annual (2023-12-31): 3.4 x\n  - Annual (2024-12-31): 3.3 x\n  - LTM (2025-06-30): 3.2 x\n- **Interest coverage**:\n  - Annual (2023-12-31): 6.0 x\n  - Annual (2024-12-31): 6.5 x\n  - LTM (2025-06-30): 6.8 x",
+      "metadata": {
+        "company_name": "MineralsCo International",
+        "company_id": 3,
+        "table_name": "cash_flow_and_leverage",
+        "keywords": [
+          "Capex",
+          "Capex margin",
+          "Change in working capital",
+          "Cash from operating activities",
+          "Cash from investing activities",
+          "Cash from financing activities",
+          "Net change in cash",
+          "Total debt",
+          "Total cash",
+          "Net debt",
+          "Net leverage",
+          "Gross leverage",
+          "Interest coverage"
+        ],
+        "source_url": "www.9fin.com/company_id/3/cash_flow_and_leverage",
+        "currency": "USD millions"
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    },
+    {
+      "doc_id": 8,
+      "content": "## {'title': 'Capitalization Table'} for MineralsCo International (as of 2025-06-30)\n\nThis document contains the capitalization table for MineralsCo International, detailing its debt structure.\n\n| Instrument Name | Security | Maturity | Rate | Amount (USDm) |\n|---|---|---|---|---|\n| $150m Revolving Credit Facility due 2028 | Secured | Oct-2028 | S+175-225 | 20.0 |\n| Short term debt | Secured | Various | Variable | 60.0 |\n| $500m Term Loan B due 2029 | Secured | Apr-2029 | S+225 | 500.0 |\n| $400m Term Loan B due 2031 | Secured | Sep-2031 | S+250 | 400.0 |\n| **Gross Secured Debt** | None | None | None | **980.0** |\n| **Net Secured Debt** | None | None | None | **560.0** |\n| $180m Senior Notes due 2030 | Unsecured | Mar-2030 | 5.25% | 180.0 |\n| Finance Leases | None | None | None | 20.0 |\n| **Gross Debt** | None | None | None | **1180.0** |\n| Cash and Cash Equivalents | None | None | None | -420.0 |\n| **Net Debt** | None | None | None | **760.0** |\n| Market Capitalization | None | None | None | 1150.0 |\n| **Net Capitalization** | None | None | None | **1910.0** |",
+      "metadata": {
+        "company_name": "MineralsCo International",
+        "company_id": 3,
+        "table_name": "cap_table",
+        "keywords": [],
+        "source_url": "www.9fin.com/company_id/3/cap_table",
+        "currency": null
+      },
+      "embedding_id": -1,
+      "embeddings": []
+    }
+  ],
+  "company_index": {
+    "Tronox": [
+      0,
+      1,
+      2
+    ],
+    "Chemco Holdings": [
+      3,
+      4,
+      5
+    ],
+    "MineralsCo International": [
+      6,
+      7,
+      8
+    ]
+  },
+  "table_index": {
+    "key_financials": [
+      0,
+      3,
+      6
+    ],
+    "cash_flow_and_leverage": [
+      1,
+      4,
+      7
+    ],
+    "cap_table": [
+      2,
+      5,
+      8
+    ]
+  }
+}

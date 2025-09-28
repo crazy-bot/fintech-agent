@@ -1,0 +1,18 @@
+[project]
+name = "fintech-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai",
+    "python-dotenv",
+    "pydantic",
+    "pydantic-settings",
+    "fastapi",
+    "uvicorn[standard]",
+    "sentence-transformers",
+    "faiss-cpu",
+    "numpy",
+    "loguru",
+]
