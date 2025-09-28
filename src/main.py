@@ -49,7 +49,7 @@ def handle_chat(request: ChatRequest):
         standalone_query = agent.generate_standalone_question(request.query, history)
 
         # Get the agent's response.
-        agent_response = agent.get_response(request.query, standalone_query, conversation_history=history)
+        agent_response, context_documents = agent.get_response(request.query, standalone_query, conversation_history=history)
 
         # Add the new user message to the history.
         session_manager.add_message(conversation_id, role="user", content=standalone_query)
@@ -58,6 +58,11 @@ def handle_chat(request: ChatRequest):
         session_manager.add_message(conversation_id, role="assistant", content=agent_response)
 
         logger.info(f"[{conversation_id}] Generated response: '{agent_response[:100]}...'")
+
+        if request.evaluate:
+            logger.info(f"[{conversation_id}] Evaluation requested for the response.")
+            context_strings = [doc.content for doc in context_documents] if context_documents else None
+            return ChatResponse(response=agent_response, conversation_id=conversation_id, retrieved_context=context_strings)
 
         return ChatResponse(response=agent_response, conversation_id=conversation_id)
 

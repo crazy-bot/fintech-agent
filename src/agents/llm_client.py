@@ -29,7 +29,7 @@ class LLMClient:
         """
         try:
             #logger.debug(f"Sending prompt to LLM: {prompt[:200]}...") # Log a snippet of the prompt
-            response = self.model.generate_content(prompt)
+            response = self.model.generate_content(prompt, generation_config={"temperature": 0.1})
             if response.text:
                 # logger.debug(f"Received response from LLM: {response.text[:200]}...")
                 return response.text

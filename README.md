@@ -20,7 +20,7 @@ A brief overview of the key directories in this project:
 ```
 ├── checkpoints/      # Stores the pre-computed FAISS index and metadata for fast startup.
 ├── data/             # Contains the raw input financial data (e.g., financial_data.json).
-├── evaluation/       # Placeholder for the future offline evaluation framework.
+├── evaluation/       # Contains evaluation scripts and eval dataset.
 ├── src/              # All Python source code for the application.
 │   ├── agents        # Core agent logic, including prompt engineering.
 │   ├── retriever     # Handles data processing, embeddings creation, and vector storage.

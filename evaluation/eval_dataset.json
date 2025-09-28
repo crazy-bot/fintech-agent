@@ -1,0 +1,33 @@
+[
+    {
+        "test_id": "T01_TRONOX_LATEST_REVENUE",
+        "turns": [
+            {
+                "question": "What's the latest revenue for Tronox?",
+                "ground_truth_answer": "The latest sales for Tronox were 2949.0 USDm for the LTM period ending 2025-06-30 [cite: www.9fin.com/company_id/1/key_financials].\n\nWould you like to see the annual sales for 2023 or 2024?"
+            }
+        ]
+    },
+    {
+        "test_id": "T02_CHEMCO_DELEVERAGE",
+        "turns": [
+            {
+                "question": "How can Chemco deleverage?",
+                "ground_truth_answer": "I do not have information on Chemco's deleveraging strategies."
+            }
+        ]
+    },
+    {
+        "test_id": "T03_CONVERSATIONAL_YOY",
+        "turns": [
+            {
+                "question": "Show Sales and Adjusted EBITDA for Tronox in 2024.",
+                "ground_truth_answer": "The sales for Tronox in 2024 were 3074.0 USDm and the Adjusted EBITDA was 564.0 USDm [cite: www.9fin.com/company_id/1/key_financials].\n\nWould you like to see the LTM figures for Sales and Adjusted EBITDA?"
+            },
+            {
+                "question": "No, summarize the YoY change.",
+                "ground_truth_answer": "Sales increased by 7.9% from 2,850 to 3,074. Adjusted EBITDA increased by 7.6% from 524 to 564."
+            }
+        ]
+    }
+]

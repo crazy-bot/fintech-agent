@@ -131,4 +131,4 @@ You have access to the following financial tables for each company:
         # Call the LLM to get the final answer
         response = self.llm_client.generate_response(prompt)
         
-        return response
+        return response, context_documents

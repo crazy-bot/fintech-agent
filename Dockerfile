@@ -10,10 +10,10 @@ WORKDIR /app
 # Install uv for faster dependency installation
 RUN pip install uv
 
-COPY pyproject.toml .
+COPY requirements.txt .
 
 # Install the Python dependencies using uv
-RUN uv pip install --system .
+RUN uv pip install --system --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code into the container.
 COPY ./src ./src

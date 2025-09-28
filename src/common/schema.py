@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
 
 class TableMetadata(BaseModel):
     company_name: str
@@ -18,8 +18,6 @@ class Document(BaseModel):
     doc_id: int
     content: str      # The natural language text to be embedded
     metadata: TableMetadata
-    embedding_id: int = -1  # Will be set after embedding
-    embeddings: list[float] = []  # Will be populated with the actual embedding vector
 
 # --- API Schemas ---
 class ChatRequest(BaseModel):
@@ -28,6 +26,7 @@ class ChatRequest(BaseModel):
     """
     query: str
     conversation_id: Optional[str] = None
+    evaluate: Optional[bool] = False
 
 class ChatResponse(BaseModel):
     """
@@ -35,3 +34,4 @@ class ChatResponse(BaseModel):
     """
     response: str
     conversation_id: str
+    retrieved_context: Optional[List[str]] = None
