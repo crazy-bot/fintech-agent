@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from .config import settings
+from ..common.config import settings
 from loguru import logger
 
 class LLMClient:
@@ -28,10 +28,10 @@ class LLMClient:
             str: The text content of the generated response.
         """
         try:
-            logger.debug(f"Sending prompt to LLM: {prompt[:200]}...") # Log a snippet of the prompt
+            #logger.debug(f"Sending prompt to LLM: {prompt[:200]}...") # Log a snippet of the prompt
             response = self.model.generate_content(prompt)
             if response.text:
-                logger.debug(f"Received response from LLM: {response.text[:200]}...")
+                # logger.debug(f"Received response from LLM: {response.text[:200]}...")
                 return response.text
             else:
                 # Handle cases where the model might refuse to answer (safety settings, etc.)
@@ -43,6 +43,5 @@ class LLMClient:
         
 
 # Example usage:
-llm_client = LLMClient()
-response = llm_client.generate_response("What is the capital of France?")
-print(response)
+# llm_client = LLMClient()
+# response = llm_client.generate_response("What is the capital of France?")

@@ -1,11 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from loguru import logger
 
-from .schema import ChatRequest, ChatResponse
-from .retriever import Retriever
-from .llm_client import LLMClient
-from .agent import Agent
-from .session_manager import SessionManager
+from .common.schema import ChatRequest, ChatResponse
+from .common.session_manager import SessionManager
+from .retriever.retriever import Retriever
+from .agents.llm_client import LLMClient
+from .agents.agent import Agent
 
 logger.info("Starting application setup...")
 try:
@@ -42,14 +42,18 @@ def handle_chat(request: ChatRequest):
         
         # Get the conversation history for the current session.
         history = session_manager.get_history(conversation_id)
-        
-        # Add the new user message to the history.
-        session_manager.add_message(conversation_id, role="user", content=request.query)
+
+        logger.info(f"[{conversation_id}] Processing query: '{request.query}'")
+
+        # Rewrite the user's query to be self-contained
+        standalone_query = agent.generate_standalone_question(request.query, history)
 
         # Get the agent's response.
-        logger.info(f"[{conversation_id}] Processing query: '{request.query}'")
-        agent_response = agent.get_response(request.query, conversation_history=history)
-        
+        agent_response = agent.get_response(request.query, standalone_query, conversation_history=history)
+
+        # Add the new user message to the history.
+        session_manager.add_message(conversation_id, role="user", content=standalone_query)
+
         # Add the agent's response to the history.
         session_manager.add_message(conversation_id, role="assistant", content=agent_response)
 

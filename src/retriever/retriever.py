@@ -1,15 +1,14 @@
 import json
 import faiss
 import numpy as np
-from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Optional
 from loguru import logger
 from collections import defaultdict
 
-from src.config import settings
-from src.data_processor import process_financial_table, process_cap_table
-from src.schema import Document, TableMetadata
+from src.common.config import settings
+from src.retriever.data_processor import process_financial_table, process_cap_table
+from src.common.schema import Document, TableMetadata
 
 class Retriever:
     def __init__(self, embedding_model_name: str = settings.EMBEDDING_MODEL):
