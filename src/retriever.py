@@ -175,7 +175,6 @@ class Retriever:
 
         query_embedding = self.embedding_model.encode([query])
         selected_ids = set()
-        selector = None
 
         if company_filter and company_filter in self.company_index:
             selected_ids = set(self.company_index[company_filter])

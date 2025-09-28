@@ -26,8 +26,9 @@ class Settings(BaseSettings):
     METADATA_PATH: Path = CHECKPOINT_DIR / "metadata.json"
     FAISS_INDEX_PATH: Path = CHECKPOINT_DIR / "faiss_index.idx"
 
-    # --- Embedding Model Configuration ---
+    # --- Model Configuration ---
     EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
+    LLM_MODEL: str = "gemini-2.5-flash-lite"
 
 # Instantiate the settings so we can import it elsewhere
 settings = Settings()
